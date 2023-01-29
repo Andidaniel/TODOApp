@@ -1,0 +1,55 @@
+html,
+body{
+  font-family: 'Segoe UI';
+}
+.main-div{
+  background: #161413;
+  position:absolute;
+  top:0vh;
+  right:0vh;
+  bottom:0vh;
+  left:0vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-container{
+  background-color: #969A97;
+  width: 600px;
+  height: 100%;
+  .container-title{
+    display: block;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #161413;
+    text-align: center;
+    margin-top: 2vh;
+  }
+  hr{
+    color: #969A97;
+    margin: 2vh;
+  }
+}
+
+.add-item-div{
+position:relative;
+background-color: #161413;
+height: 25px;
+
+}
+
+.add-item-input{
+  position: absolute;
+  left: 5%;
+  width: 70%;
+  height: 100%;
+
+}
+
+.add-item-button{
+  position:absolute;
+  right: 5%;
+  height: 100%;
+
+}
